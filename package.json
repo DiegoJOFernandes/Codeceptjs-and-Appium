@@ -1,0 +1,21 @@
+{
+  "name": "mobileautomation",
+  "version": "1.0.0",
+  "description": "Project automation with codeceptJS and Appium",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps",
+    "newTest": "npx codeceptjs gt",
+    "pageObject": "npx codeceptjs gpo",
+    "android": "PLATFORM=Android APP='/Users/diego.jfernandes/Projetos/Codeceptjs-and-Appium/app/app-release.apk' DEVICE='Andoid Emulator' VERSION=10 PACKAGE=com.qazandoapp ACTIVITY=MainActivity npx codeceptjs run --steps"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "codeceptjs": "^3.3.6",
+    "dotenv": "^16.0.3",
+    "start-android-emulator": "^2.0.0",
+    "webdriverio": "^7.25.4"
+  }
+}
