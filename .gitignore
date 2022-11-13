@@ -3,3 +3,7 @@ node_modules
 output
 
 .env
+
+remote.env
+
+app/ame-app.apk
