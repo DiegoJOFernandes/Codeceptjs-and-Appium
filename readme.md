@@ -6,10 +6,6 @@
 
 ## Boilerplate project based on [CodeceptJS](https://codecept.io/)
 
-### Overview
-
-Esta documentación está disponible también en [**English**](LEEME.md).
-
 ### General requirements
 
 - Install a git client such as [git bash](https://git-scm.com/downloads)
